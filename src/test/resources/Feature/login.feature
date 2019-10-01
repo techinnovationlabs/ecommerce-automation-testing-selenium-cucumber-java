@@ -38,12 +38,12 @@ Examples:
 #|s#$3!@@com|vinay|r|Asahi|Asahi,46 Fanepet 2nd Street|chennai|aaaa|600091|cdf|2345|address1|
 
 
-Scenario Outline:  Verify signup page valid input
-	When User has to enter the valid "<email>" "<firstname>","<lastname>","<password>","<Address>","<city>","<state>","<Zip>","<country>","<mobileno>","<Address1>" and click the register button and click the register button
-	Then close the browser
-Examples:
-|email|firstname|lastname|password|Address|city|state|Zip|country|mobileno|Address1|
-|ss12345@mail.com|ram|sita|Asahi@123|Asahi,46 Fanepet 2nd Street|chennai|32|600091|United States|9944021254|address1|
+#Scenario Outline:  Verify signup page valid input
+#	When User has to enter the valid "<email>" "<firstname>","<lastname>","<password>","<Address>","<city>","<state>","<Zip>","<country>","<mobileno>","<Address1>" and click the register button and click the register button
+#	Then close the browser
+#Examples:
+#|email|firstname|lastname|password|Address|city|state|Zip|country|mobileno|Address1|
+#|ss123456@mail.com|ram|sita|Asahi@123|Asahi,46 Fanepet 2nd Street|chennai|32|600091|United States|9944021254|address1|
 
 Scenario: Verify Home page
 	When select dresses menu
